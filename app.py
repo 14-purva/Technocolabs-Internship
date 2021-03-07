@@ -5,6 +5,7 @@ import numpy as np
 import pickle
 import sklearn
 
+
 app = Flask(__name__)
 
 model = pickle.load(open('model.pickle', 'rb'))
